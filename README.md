@@ -4,6 +4,7 @@ Edmonds Community College CS 142
 Completed 6/5/2013
 
 <b>Program is in dist file: Print_Queue_Simulation_Final.jar</b>
+<b>Jar file located: <a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/dist/Print_Queue_Simulation_Final.jar">Here</a>
 
 <strong><bold>Problem</strong><bold><br><br>
 Write a program that solves a classic computer science problem known as
