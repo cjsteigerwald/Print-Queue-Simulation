@@ -1,4 +1,7 @@
 # Print-Queue-Simulation
+
+<img src="https://cloud.githubusercontent.com/assets/9287625/7280734/bbdceb00-e8d9-11e4-943a-7b7993f956bf.png">
+
 Printer Queue Simulation GUI based
 Edmonds Community College CS 142
 Completed 6/5/2013
