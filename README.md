@@ -3,7 +3,8 @@ Printer Queue Simulation GUI based
 Edmonds Community College CS 142
 Completed 6/5/2013
 
-<b>Project file located: <a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/dist/Print_Queue_Simulation_Final.jar">Here</a>
+<b>Project jar file located: <a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/dist/Print_Queue_Simulation_Final.jar">Here</a><br>
+Project .java files located: <a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/tree/master/src/print">Here</a>
 
 <strong><bold>Problem</strong><bold><br><br>
 Write a program that solves a classic computer science problem known as
@@ -32,11 +33,11 @@ will begin processessing a new print job.<br><br>
 
 <strong><b>Solution</strong></b><br><br>
 <OL>
-<LI>PrintQueueSimulationGUI-- the simulation driver class.  A GUI based
+<LI><a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/src/print/PrinterGUI.java">PrintQueueSimulationGUI</a>-- the simulation driver class.  A GUI based
 JFrame that allows the user to set/select number of servers (printers), 
 set/select mean interarrival time, and set/select mean duration of each
 job.
-<LI>Clinet-- Each print job has an instance of this class. It contains 
+<LI><a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/src/print/Client.java">Client</a>-- Each print job has an instance of this class. It contains 
 a random number generator randomJobSize that generates the exponentially
 distributed job sizes with a mean of 100 pages. It is declared static 
 because only one instance is needed to produce all the job sizes. Similarly, 
@@ -49,7 +50,7 @@ one line of output, announcing that the printing has begun. Similarly, the
 endService() method nullifies the server reference after printing one line
 of output that announces that the printing has ended.
 
-<LI>Server-- It has a random number generator randomMeanServiceRate that 
+<LI><a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/src/print/Server.java">Server</a>-- It has a random number generator randomMeanServiceRate that 
 generates the normally distributed rates with mean 100.0 and standard 
 deviation 20.0. It produces the meanServiceRate for each printer. In the
 run just shown, it produced the rates 89 for Printer A, 97 for Printer B,
@@ -69,31 +70,27 @@ The integer ceiling of this ratio is used as a count of the number of seconds
 to elapse. This count is then added to the current time to initialize the
 timeServiceEnds field of the Server object.
 
-<LI>Random-- extends java.utilRandom. Given above.
+<LI><a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/src/print/Random.java">Random</a>-- extends java.utilRandom. Given above.
 
-<LI>AbstractQueue--an abstract class that extends AbstractCollection and 
-Implements Queue interface.
-
-<LI>Queue--an interface that extends Collection. Public method include 
+<LI><a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/src/print/ClientQueue.java">Queue</a>--an interface that extends Collection. Public method include 
 enqueue, dequeue, getBack, and getFront. You may decide to implement the
 Queue class differently--it need not be an interface.
 
-<LI>ArrayQueue--extends AbstractQueue. Overrides all methods from the 
-AbstractQueue.
+<LI><a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/src/print/ClientQueue.java">Client Queue</a>--extends List.
 
-<LI>Splash screen with which the program begins and an About form which
+<LI><a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/src/print/Splash.java">Splash</a> screen with which the program begins and an About form which
 describes the project among other info (copyright, warning, logo, etc.).
 
 <LI>A sound data structure of the Person class to hold the preference data. 
 This could be an array, ArrayList, LinkedList (preferable), HashMap, or any
 other structure you desire.
 
-<LI>Javadocs, description of the program, and comments, comments everywhere.
+<LI><a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/tree/master/dist/javadoc">Javadocs</a>, description of the program, and comments, comments everywhere.
 
 <LI>Menus that synchronize with corresponding buttons and with at least the 
 following menu choices:
 <UL>
-<LI>File with Open, Clear, Print, and Exit menu items.
+<LI>File with Open, Clear, Print, Save, and Exit menu items.
 <LI>Statistics displaying all averages
 <LI>Help with About menu item for an About form.
 </UL>
