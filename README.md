@@ -1,6 +1,8 @@
 # Print-Queue-Simulation
 
-<img src="https://cloud.githubusercontent.com/assets/9287625/7280734/bbdceb00-e8d9-11e4-943a-7b7993f956bf.png">
+<a href="https://cloud.githubusercontent.com/assets/9287625/7280734/bbdceb00-e8d9-11e4-943a-7b7993f956bf.png" target="_blank">
+<img src="https://cloud.githubusercontent.com/assets/9287625/7329015/50cdd29a-ea8f-11e4-9f55-98824d5f4667.jpg" width="100" height="131" border="0" alt="Photo of a big bunny rabbit!" />
+</a>
 
 Printer Queue Simulation GUI based
 Edmonds Community College CS 142
