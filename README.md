@@ -9,6 +9,7 @@
 
 <a href="https://cloud.githubusercontent.com/assets/9287625/7329296/840ea3a2-ea92-11e4-86e9-947fb8c54fb2.jpg" target="_blank">
 <img src="https://cloud.githubusercontent.com/assets/9287625/7329305/92fe8cc4-ea92-11e4-997c-2785cea80f01.jpg" width="100" height="131" border="0" alt="Thumbnail 3" /></a></td></tr></table><br>
+
 Printer Queue Simulation GUI based
 Edmonds Community College CS 142
 Completed 6/5/2013
@@ -104,8 +105,7 @@ following menu choices:
 <LI>Statistics displaying all averages
 <LI>Help with About menu item for an About form.
 </UL>
-<LI>The project should start with a Splash Screen that closes itself after
-so many seconds and it should contain an About form activated from the Help menu.
+<LI>The project should start with a <a href="https://github.com/cjsteigerwald/Print-Queue-Simulation/blob/master/src/print/Splash.java">Splash Screen</a> that closes itself after so many seconds and it should contain an About form activated from the Help menu.
 </OL>
 &nbsp;
 
