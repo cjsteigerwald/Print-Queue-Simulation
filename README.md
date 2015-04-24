@@ -1,12 +1,12 @@
 # Print-Queue-Simulation
-<span
+
+<table><tr><td>
 <a href="https://cloud.githubusercontent.com/assets/9287625/7329277/4a4f1912-ea92-11e4-893d-82430623f40e.jpg" target="_blank">
-<img src="https://cloud.githubusercontent.com/assets/9287625/7329285/63960246-ea92-11e4-9293-d437cb630f96.jpg" width="100" height="131" border="0" alt="Thumbnail 2" />
-</a>
+<img src="https://cloud.githubusercontent.com/assets/9287625/7329285/63960246-ea92-11e4-9293-d437cb630f96.jpg" width="100" height="131" border="0" alt="Thumbnail 2" /></a></td><td>
+
 
 <a href="https://cloud.githubusercontent.com/assets/9287625/7329296/840ea3a2-ea92-11e4-86e9-947fb8c54fb2.jpg" target="_blank">
-<img src="https://cloud.githubusercontent.com/assets/9287625/7329305/92fe8cc4-ea92-11e4-997c-2785cea80f01.jpg" width="100" height="131" border="0" alt="Thumbnail 3" />
-</a></span>
+<img src="https://cloud.githubusercontent.com/assets/9287625/7329305/92fe8cc4-ea92-11e4-997c-2785cea80f01.jpg" width="100" height="131" border="0" alt="Thumbnail 3" /></a></td></tr></table><br>
 Printer Queue Simulation GUI based
 Edmonds Community College CS 142
 Completed 6/5/2013
